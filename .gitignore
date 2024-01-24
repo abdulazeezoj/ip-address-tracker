@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Desktop.ini
+Thumbs.db
+
+# IDE
+.idea
+.vscode
+
+# Misc
+*.sketch
+*.xd
+*.fig
+
+README-*.md
