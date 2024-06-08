@@ -2,7 +2,7 @@
   "homepage": "https://abdulazeezoj.github.io/ip-address-tracker/",
   "scripts": {
     "serve": "live-server",
-    "style": "tailwind -i ./src/css/input.css -o ./src/css/style.css --watch"
+    "style": "tailwind -i ./input.css -o ./index.css --watch"
   },
   "devDependencies": {
     "live-server": "^1.2.2",
