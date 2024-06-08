@@ -752,10 +752,6 @@ video {
   margin-top: 0.5rem;
 }
 
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -1888,11 +1884,6 @@ video {
   border-style: none;
 }
 
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
 .bg-\[hsl\(0\2c 0\%\2c 17\%\)\] {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 17% / var(--tw-bg-opacity));
@@ -2134,10 +2125,6 @@ video {
   line-height: 1rem;
 }
 
-.text-\[0\.8rem\] {
-  font-size: 0.8rem;
-}
-
 .font-\[500\] {
   font-weight: 500;
 }
@@ -2252,10 +2239,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[xs\] {
-  color: xs;
 }
 
 .underline {
@@ -2693,31 +2676,9 @@ video {
   }
 }
 
-@media (min-width: 768px) {
-  .md\:flex-row {
-    flex-direction: row;
-  }
-
-  .md\:items-start {
-    align-items: flex-start;
-  }
-
-  .md\:text-left {
-    text-align: left;
-  }
-}
-
 @media (min-width: 1280px) {
   .xl\:mb-6 {
     margin-bottom: 1.5rem;
-  }
-
-  .xl\:mb-5 {
-    margin-bottom: 1.25rem;
-  }
-
-  .xl\:mb-8 {
-    margin-bottom: 2rem;
   }
 
   .xl\:mb-9 {
@@ -2732,32 +2693,12 @@ video {
     flex-direction: row;
   }
 
-  .xl\:place-items-start {
-    place-items: start;
-  }
-
-  .xl\:items-start {
-    align-items: flex-start;
-  }
-
   .xl\:items-stretch {
     align-items: stretch;
   }
 
   .xl\:gap-0 {
     gap: 0px;
-  }
-
-  .xl\:gap-y-7 {
-    row-gap: 1.75rem;
-  }
-
-  .xl\:gap-y-6 {
-    row-gap: 1.5rem;
-  }
-
-  .xl\:gap-y-4 {
-    row-gap: 1rem;
   }
 
   .xl\:bg-\[url\(\'\/src\/img\/pattern-bg-desktop\.png\'\)\] {
@@ -2773,16 +2714,16 @@ video {
     padding-top: 1.25rem;
   }
 
-  .xl\:pt-0 {
-    padding-top: 0px;
+  .xl\:text-left {
+    text-align: left;
   }
 
-  .xl\:pt-4 {
-    padding-top: 1rem;
+  .xl\:text-\[0\.85rem\] {
+    font-size: 0.85rem;
   }
 
-  .xl\:pt-6 {
-    padding-top: 1.5rem;
+  .xl\:text-\[1\.15rem\] {
+    font-size: 1.15rem;
   }
 
   .xl\:text-\[26px\] {
@@ -2791,36 +2732,6 @@ video {
 
   .xl\:text-\[2rem\] {
     font-size: 2rem;
-  }
-
-  .xl\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
-  .xl\:text-xs {
-    font-size: 0.75rem;
-    line-height: 1rem;
-  }
-
-  .xl\:text-\[0\.9rem\] {
-    font-size: 0.9rem;
-  }
-
-  .xl\:text-\[0\.85rem\] {
-    font-size: 0.85rem;
-  }
-
-  .xl\:text-\[1\.2rem\] {
-    font-size: 1.2rem;
-  }
-
-  .xl\:text-\[1\.15rem\] {
-    font-size: 1.15rem;
-  }
-
-  .xl\:text-\[\] {
-    color: ;
   }
 }
 
@@ -2837,28 +2748,8 @@ video {
 }
 
 @media (min-width: 1280px) {
-  .xl\:\[\&\:not\(\:first-child\)\]\:border:not(:first-child) {
-    border-width: 1px;
-  }
-
   .xl\:\[\&\:not\(\:first-child\)\]\:border-l:not(:first-child) {
     border-left-width: 1px;
-  }
-
-  .xl\:\[\&\:not\(\:first-child\)\]\:border-\[\]:not(:first-child) {
-    border-color: ;
-  }
-
-  .xl\:\[\&\:not\(\:first-child\)\]\:border-\[hsl\(\)\]:not(:first-child) {
-    border-color: hsl();
-  }
-
-  .xl\:\[\&\:not\(\:first-child\)\]\:border-\[hsl\(0\)\]:not(:first-child) {
-    border-color: hsl(0);
-  }
-
-  .xl\:\[\&\:not\(\:first-child\)\]\:border-\[hsl\(0\2c \)\]:not(:first-child) {
-    border-color: hsl(0,);
   }
 
   .xl\:\[\&\:not\(\:first-child\)\]\:border-\[hsl\(0\2c 0\%\2c 59\%\)\]:not(:first-child) {
