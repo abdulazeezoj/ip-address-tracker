@@ -1,15 +1,18 @@
-# OS
+# Misc
 .DS_Store
 Desktop.ini
 Thumbs.db
 
-# IDE
-.idea
-.vscode
-
-# Misc
 *.sketch
 *.xd
 *.fig
+
+.idea
+.vscode
+
+
+# Dev
+node_modules
+npm-debug.log
 
 README-*.md
