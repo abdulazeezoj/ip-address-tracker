@@ -1899,10 +1899,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\/img\/pattern-bg-mobile\.png\'\)\] {
-  background-image: url('./img/pattern-bg-mobile.png');
-}
-
 .bg-\[url\(\'\.\/images\/pattern-bg-mobile\.png\'\)\] {
   background-image: url('./images/pattern-bg-mobile.png');
 }
@@ -2703,10 +2699,6 @@ video {
 
   .xl\:gap-0 {
     gap: 0px;
-  }
-
-  .xl\:bg-\[url\(\'\.\/img\/pattern-bg-desktop\.png\'\)\] {
-    background-image: url('./img/pattern-bg-desktop.png');
   }
 
   .xl\:bg-\[url\(\'\.\/images\/pattern-bg-desktop\.png\'\)\] {
